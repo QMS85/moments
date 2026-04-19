@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Animated tech background">
+    <title>Moments - Animated Background</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Canvas for background animation -->
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+    
+    <!-- Optional overlay for depth -->
+    <div class="bg-background-overlay" aria-hidden="true"></div>
+    
+    <!-- Grain texture overlay (optional) -->
+    <div class="bg-grain" aria-hidden="true"></div>
+    
+    <!-- Main content container -->
+    <div class="container">
+        <header>
+            <h1>Welcome to Moments</h1>
+            <p>A beautiful animated background experience</p>
+        </header>
+        
+        <main>
+            <section id="about">
+                <h2>About This Project</h2>
+                <p>Built with pure JavaScript Canvas API</p>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Load animation script last -->
+    <script src="script.js" defer></script>
+</body>
+</html>
